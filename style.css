@@ -1,0 +1,90 @@
+.place_exp {
+  height: 400px !important;
+}
+
+.detail_btn {
+  z-index: 10;
+  letter-spacing: 3px;
+  background-color: #fa6741;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 30px;
+  justify-content: space-around;
+  font-family: Mukta, sans-serif;
+  position: relative;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.overlay_cont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fa6641c4;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+}
+
+.overlay_inner {
+  transform: translate(8%, 110%);
+}
+
+.inner2 {
+  transform: translate(8%, 384%);
+}
+
+.overlay_inner h3 {
+  color: #fff;
+  font-size: 20px;
+}
+.read_btn {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 33px;
+  background-color: #000;
+  border-radius: 30px;
+  margin-top: 18px;
+}
+
+.pos {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.w-webflow-badge,
+.more-templates {
+  display: none !important;
+}
+
+.w-webflow-badge {
+  display: important !important;
+  position: unset !important;
+  transform: scale(0) !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  font-size: 0 !important;
+}
+.w-webflow-badge img {
+  display: none !important;
+  transform: scale(0) !important;
+  max-width: 0 !important;
+  max-height: 0 !important;
+  font-size: 0 !important;
+}
+
+.pos:hover .overlay_cont {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* most popular packages */
+.info_card {
+  padding: 10px 30px 40px;
+}
