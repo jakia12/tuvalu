@@ -5,7 +5,7 @@
 .detail_btn {
   z-index: 10;
   letter-spacing: 3px;
-  background-color: #fa6741;
+  background-color: #0073c4;
   border-color: rgba(0, 0, 0, 0);
   border-radius: 30px;
   justify-content: space-around;
@@ -20,7 +20,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #fa6641c4;
+  background-color: #00a8f668;
   top: 0;
   left: 0;
   opacity: 0;
