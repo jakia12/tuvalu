@@ -88,3 +88,15 @@
 .info_card {
   padding: 10px 30px 40px;
 }
+.ds_hid {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .ds_b {
+    display: none;
+  }
+
+  .ds_hid {
+    display: block;
+  }
+}
