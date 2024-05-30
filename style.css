@@ -91,6 +91,18 @@
 .ds_hid {
   display: none;
 }
+.tours-item-grid {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  flex-flow: wrap;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  max-width: 1720px;
+  display: grid;
+}
+
 @media screen and (max-width: 768px) {
   .ds_b {
     display: none;
